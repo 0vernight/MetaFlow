@@ -1,0 +1,55 @@
+.demonstration {
+    color: var(--el-text-color-secondary);
+}
+
+.el-carousel__item h3 {
+    color: #475669;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+    text-align: center;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+    background-color: #d3dce6;
+}
+
+.active {
+    background-color: aquamarine;
+}
+
+.text-danger {
+    color: blue;
+}
+
+.pm {
+    color: rgb(136, 169, 198);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+    position: relative;
+    top: -10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.greetings h1,
+.greetings h3 {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+    .greetings h1,
+    .greetings h3 {
+        text-align: left;
+    }
+}
